@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+
+
+.galerijaDiv{
+
+    height: 100vh;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    cursor: pointer;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+
+}
+.galerijaHeadline{
+    height: 10vh;
+    width: 100%;
+    color:black ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+
+}
+.slikaHW{
+    height: 28vh;
+    width: 24%;
+    border-radius:7px;
+}
+
+.mainDiv_images{
+    height: 90vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+
+
+
+}
+.mainDiv_images_firstRow{
+    width: 100%;
+    height: 32%;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid grey; */
+}
+
+.mainDiv_images_secondRow{
+    width: 100%;
+    height: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mainDiv_images_threedRow{
+    width: 100%;
+    height: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.couroselDiv{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 65vh;
+    width: 80%;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    .galerijaDiv{
+
+        height: 635vh;
+        width: 100%;
+        font-family: 'Source Code Pro', monospace;
+        cursor: pointer;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-around;
+    
+
+     
+    }
+    .galerijaHeadline{
+        height: 10vh;
+        width: 100%;
+        color:black ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+    
+    
+    }
+
+
+    .mainDiv_images{
+        height: 620vh;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    
+    
+    
+    }
+    .mainDiv_images_firstRow{
+        width: 100%;
+        height: 205vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .mainDiv_images_secondRow{
+        width: 100%;
+        height: 205vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .mainDiv_images_threedRow{
+        width: 100%;
+        height: 205vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .slikaHW{
+        height: 50vh;
+        width: 100%;
+        border-radius:7px;
+    }
+    img{
+        height: 60vh;
+        width: 85%;
+
+    }
+    
+
+  }
+
+
+
+
+  @media only screen and (max-width: 500px) {
+
+
+
+    .galerijaHeadline{
+        height: 10vh;
+        width: 100%;
+        color:black ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+    
+    
+    }
+
+}
+
